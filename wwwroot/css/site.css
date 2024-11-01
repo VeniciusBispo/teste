@@ -1,0 +1,94 @@
+/* Estilos para o tema claro */
+body {
+    background-color: #ffffff; /* Fundo branco */
+    color: #d4af37; /* Texto dourado */
+}
+
+.bg-light {
+    background-color: #ffffff !important;
+}
+
+.text-muted {
+    color: #b3b3b3 !important;
+}
+
+.card {
+    background-color: #ffffff; /* Fundo branco dos cards */
+    color: #d4af37; /* Texto dourado */
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+/* Estilos para o tema escuro */
+body.dark-mode {
+    background-color: #000000; /* Fundo preto */
+    color: #d4af37; /* Texto dourado */
+}
+
+.dark-mode .bg-light {
+    background-color: #1e1e1e !important;
+}
+
+.dark-mode .text-muted {
+    color: #a3a3a3 !important;
+}
+
+.dark-mode .card {
+    background-color: #1e1e1e; /* Fundo escuro dos cards */
+    color: #d4af37; /* Texto dourado dos cards */
+    border: 1px solid #555555; /* Borda no modo escuro */
+}
+
+.dark-mode .card-title,
+.dark-mode .card-text {
+    color: #d4af37; /* Texto dourado nos títulos e descrições dos cards */
+}
+
+.dark-mode .navbar {
+    background-color: #1e1e1e; /* Fundo escuro da navbar */
+}
+
+    .dark-mode .navbar .navbar-nav .nav-link,
+    .dark-mode .navbar .navbar-brand {
+        color: #d4af37 !important; /* Texto dourado nos links da navbar */
+    }
+
+    .dark-mode .navbar .navbar-toggler {
+        border-color: #d4af37; /* Borda dourada do toggler */
+    }
+
+    .dark-mode .navbar .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgba(212, 175, 55, .5)' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(212, 175, 55, .5)' stroke-width='2' d='M4 7h22M4 15h22m-22 8h22'/%3E%3C/svg%3E");
+    }
+
+.dark-mode .border-top {
+    border-top-color: #d4af37 !important; /* Borda dourada */
+}
+
+.table {
+    background-color: #1e1e1e !important; /* Fundo escuro da tabela */
+}
+
+    .table th,
+    .table td {
+        color: #d4af37; /* Texto dourado da tabela */
+    }
+
+    .table thead th {
+        background-color: #555555; /* Cabeçalho da tabela no modo escuro */
+    }
+
+/* Botão do Instagram */
+.btn-instagram {
+    background-color: #E1306C;
+    color: white;
+}
+
+    .btn-instagram:hover {
+        background-color: #C13584;
+    }
